@@ -1,5 +1,9 @@
 // Behavioural patterns (interaction between objects)
 
+console.log('------- START of Pattern: Chain of Responsibility -------');
+import "./chainOfResponsibility";
+console.log('------- END of Pattern: Chain of Responsibility -------');
+
 console.log('------- START of Pattern: Memento -------');
 import "./memento";
 console.log('------- END of Pattern: Memento -------');
