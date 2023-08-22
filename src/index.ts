@@ -4,6 +4,10 @@ console.log('------- START of Pattern: Chain of Responsibility -------');
 import "./chainOfResponsibility";
 console.log('------- END of Pattern: Chain of Responsibility -------');
 
+console.log('------- START of Pattern: Command -------');
+import "./command";
+console.log('------- END of Pattern: Command -------');
+
 console.log('------- START of Pattern: Memento -------');
 import "./memento";
 console.log('------- END of Pattern: Memento -------');
