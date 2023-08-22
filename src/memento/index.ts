@@ -1,3 +1,11 @@
+/**
+ * Memento
+ *
+ * A classic pattern to handle undo mechanisms. You have a caretaker (stores
+ * list of states and add and removes), a memento (state itself), and originator
+ * (creates states, restores to a state). We store snapshots in the state.
+ */
+
 import Editor from "./Editor";
 import EditorState from "./EditorState";
 import History from "./History";
