@@ -29,3 +29,9 @@ console.log('------- END of Pattern: Strategy -------');
 console.log('------- START of Pattern: Facade -------');
 import "./facade";
 console.log('------- END of Pattern: Facade -------');
+
+// Creational patterns (creation of objects)
+
+console.log('------- START of Pattern: Singleton -------');
+import "./singleton";
+console.log('------- END of Pattern: Singleton -------');
