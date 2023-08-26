@@ -24,6 +24,10 @@ console.log("------- START of Pattern: Strategy -------");
 import "./strategy";
 console.log("------- END of Pattern: Strategy -------");
 
+console.log("------- START of Pattern: Template Method -------");
+import "./templateMethod";
+console.log("------- END of Pattern: Template Method -------");
+
 // Structural patterns (relationships between objects)
 
 console.log("------- START of Pattern: Decorator -------");
