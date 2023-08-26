@@ -40,6 +40,10 @@ console.log("------- END of Pattern: Facade -------");
 
 // Creational patterns (creation of objects)
 
+console.log("------- START of Pattern: Prototype -------");
+import "./prototype";
+console.log("------- END of Pattern: Prototype -------");
+
 console.log("------- START of Pattern: Singleton -------");
 import "./singleton";
 console.log("------- END of Pattern: Singleton -------");

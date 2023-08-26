@@ -16,5 +16,5 @@ config1.add("url", "https://some.test");
 
 const config2 = Config.getInstance();
 
-console.log(config2 === config1); // Same location in memory
+console.log('Same memory location:', config2 === config1);
 console.log(config2.get("url"));
