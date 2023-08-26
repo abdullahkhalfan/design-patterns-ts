@@ -38,6 +38,10 @@ console.log("------- START of Pattern: Facade -------");
 import "./facade";
 console.log("------- END of Pattern: Facade -------");
 
+console.log("------- START of Pattern: Proxy -------");
+import "./proxy";
+console.log("------- END of Pattern: Proxy -------");
+
 // Creational patterns (creation of objects)
 
 console.log("------- START of Pattern: Prototype -------");
