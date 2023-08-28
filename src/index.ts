@@ -8,6 +8,10 @@ console.log("------- START of Pattern: Command -------");
 import "./command";
 console.log("------- END of Pattern: Command -------");
 
+console.log("------- START of Pattern: Mediator -------");
+import "./mediator";
+console.log("------- END of Pattern: Mediator -------");
+
 console.log("------- START of Pattern: Memento -------");
 import "./memento";
 console.log("------- END of Pattern: Memento -------");
