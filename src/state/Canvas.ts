@@ -1,7 +1,6 @@
 import Tool from './Tool';
 
 export default class Canvas {
-
     protected _tool?: Tool;
 
     setTool(tool: Tool): void {

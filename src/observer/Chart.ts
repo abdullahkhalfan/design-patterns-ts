@@ -2,7 +2,6 @@ import DataSource from "./DataSource";
 import Observer from "./Observer";
 
 export default class Chart implements Observer {
-
     constructor(
         protected _dataSource: DataSource
     ) {}

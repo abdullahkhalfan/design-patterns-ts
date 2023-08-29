@@ -1,7 +1,6 @@
 import Component from "./Component";
 
 export default class Circle implements Component {
-
     protected _radius: number | null = null;
 
     render(): void {

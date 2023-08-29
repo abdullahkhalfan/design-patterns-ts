@@ -5,7 +5,6 @@ import TextInput from "./TextInput";
 import UIControl from "./UIControl";
 
 export default class ArticlesDialog implements DialogBox {
-
     saveButton = new Button(this);
     articlesSelector = new Selector(this);
     titleInput = new TextInput(this);

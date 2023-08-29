@@ -11,7 +11,6 @@ export default class Config {
     }
 
     static getInstance(): Config {
-
         if (!this._instance) {
             this._instance = new this();
         }

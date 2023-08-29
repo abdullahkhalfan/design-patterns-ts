@@ -1,11 +1,7 @@
 import Stream from "./Stream";
 
 export default class CompressedStream implements Stream {
-
-    protected _stream: Stream;
-
-    constructor(stream: Stream) {
-        this._stream = stream;
+    constructor(protected _stream: Stream) {
     }
 
     write(data: string): void {

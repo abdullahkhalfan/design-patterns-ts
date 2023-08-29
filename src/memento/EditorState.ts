@@ -1,9 +1,6 @@
 export default class EditorState {
 
-    protected _content: string;
-
-    constructor(content: string) {
-        this._content = content;
+    constructor(protected _content: string) {
     }
 
     get content(): string {

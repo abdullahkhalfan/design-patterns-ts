@@ -1,11 +1,7 @@
 import AuditTrail from "./AuditTrail";
 
 export default abstract class Task {
-
-    protected _auditTrail: AuditTrail;
-
-    constructor(auditTrail: AuditTrail) {
-        this._auditTrail = auditTrail;
+    constructor(protected _auditTrail: AuditTrail) {
     }
 
     execute(): void {

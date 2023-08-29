@@ -1,6 +1,5 @@
 export default class Connection {
-
-    constructor(public _ip: string) {
+    constructor(protected _ip: string) {
         this.connect();
     }
 

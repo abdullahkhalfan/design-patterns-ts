@@ -1,8 +1,7 @@
 import Subject from "./Subject";
 
 export default class DataSource extends Subject {
-
-    constructor(protected _value: string)  {
+    constructor(protected _value: string) {
         super();
     }
 

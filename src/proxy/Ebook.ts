@@ -1,8 +1,5 @@
 export default abstract class Ebook {
-    protected _fileName: string;
-
-    constructor(fileName: string) {
-        this._fileName = fileName;
+    constructor(protected _fileName: string) {
     }
 
     get fileName(): string {

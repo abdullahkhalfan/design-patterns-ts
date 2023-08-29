@@ -1,7 +1,6 @@
 import Observer from "./Observer";
 
 export default abstract class Subject {
-
     protected _observers: Observer[] = [];
 
     addObserver(observer: Observer): void {

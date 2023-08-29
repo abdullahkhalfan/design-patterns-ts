@@ -3,7 +3,6 @@ import Connection from "./Connection";
 import Message from "./Message";
 
 class NotificationServer {
-
     connect(ip: string): Connection {
         return new Connection(ip);
     }

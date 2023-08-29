@@ -10,7 +10,6 @@ import Editor from "./Editor";
 import EditorState from "./EditorState";
 import History from "./History";
 
-
 const editor = new Editor();
 const history = new History();
 

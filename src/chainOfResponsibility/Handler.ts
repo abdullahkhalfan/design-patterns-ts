@@ -1,12 +1,7 @@
 import HttpRequest from "./HttpRequest";
 
 export default abstract class Handler {
-
-    protected _nextHandler: Handler | null;
-
-    constructor(nextHandler: Handler | null = null) {
-        this._nextHandler = nextHandler;
-    }
+    constructor(protected _nextHandler: Handler | null = null) {}
 
     handle(request: HttpRequest) {
         // So long as the internal handler keeps returning true

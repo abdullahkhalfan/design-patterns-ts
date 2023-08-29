@@ -1,11 +1,5 @@
 export default class HttpRequest {
-    protected _user: string;
-    protected _password: string;
-
-    constructor(user: string, password: string) {
-        this._user = user;
-        this._password = password;
-    }
+    constructor(protected _user: string, protected _password: string) {}
 
     get user(): string {
         return this._user;
