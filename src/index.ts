@@ -38,6 +38,10 @@ console.log("------- START of Pattern: Bridge -------");
 import "./bridge";
 console.log("------- END of Pattern: Bridge -------");
 
+console.log("------- START of Pattern: Composite -------");
+import "./composite";
+console.log("------- END of Pattern: Composite -------");
+
 console.log("------- START of Pattern: Decorator -------");
 import "./decorator";
 console.log("------- END of Pattern: Decorator -------");
