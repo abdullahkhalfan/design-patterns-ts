@@ -64,6 +64,10 @@ console.log("------- START of Pattern: Abstract Factory -------");
 import "./abstractFactory";
 console.log("------- END of Pattern: Abstract Factory -------");
 
+console.log("------- START of Pattern: Builder -------");
+import "./builder";
+console.log("------- END of Pattern: Builder -------");
+
 console.log("------- START of Pattern: Prototype -------");
 import "./prototype";
 console.log("------- END of Pattern: Prototype -------");
