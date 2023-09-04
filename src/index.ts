@@ -60,6 +60,10 @@ console.log("------- END of Pattern: Proxy -------");
 
 // Creational patterns (creation of objects)
 
+console.log("------- START of Pattern: Abstract Factory -------");
+import "./abstractFactory";
+console.log("------- END of Pattern: Abstract Factory -------");
+
 console.log("------- START of Pattern: Prototype -------");
 import "./prototype";
 console.log("------- END of Pattern: Prototype -------");
