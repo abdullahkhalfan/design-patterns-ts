@@ -68,6 +68,10 @@ console.log("------- START of Pattern: Builder -------");
 import "./builder";
 console.log("------- END of Pattern: Builder -------");
 
+console.log("------- START of Pattern: Factory Method -------");
+import "./factoryMethod";
+console.log("------- END of Pattern: Factory Method -------");
+
 console.log("------- START of Pattern: Prototype -------");
 import "./prototype";
 console.log("------- END of Pattern: Prototype -------");
