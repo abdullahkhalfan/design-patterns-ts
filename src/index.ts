@@ -34,6 +34,10 @@ console.log("------- END of Pattern: Template Method -------");
 
 // Structural patterns (relationships between objects)
 
+console.log("------- START of Pattern: Adapter -------");
+import "./adapter";
+console.log("------- END of Pattern: Adapter -------");
+
 console.log("------- START of Pattern: Bridge -------");
 import "./bridge";
 console.log("------- END of Pattern: Bridge -------");
