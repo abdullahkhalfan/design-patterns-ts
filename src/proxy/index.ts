@@ -4,8 +4,8 @@
  * Use this pattern when you need to lazy load an object (load only on
  * demand to save memory). You have a proxy object that acts as an agent.
  * An example would be Eloquent in Laravel. Client is dependant on and
- * deals with an interface Subject which is   implemented by RealSubject
- * and Proxy. Proxy forwards operation to RealSubject.
+ * deals with an interface Subject which is implemented by RealSubject
+ * and Proxy. Proxy forwards operations to RealSubject.
  */
 
 import EbookProxy from "./EbookProxy";
